@@ -1,6 +1,6 @@
 {
   "name": "@biotope/storybook-addon-compiled-code",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Compiled code addon for storybook",
   "keywords": [
     "addon",
