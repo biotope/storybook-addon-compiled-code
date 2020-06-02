@@ -1,0 +1,82 @@
+{
+  "name": "@biotope/storybook-addon-compiled-code",
+  "version": "0.0.0",
+  "description": "Compiled code addon for storybook",
+  "keywords": [
+    "addon",
+    "storybook"
+  ],
+  "homepage": "https://github.com/biotope/storybook-addon-compiled-code",
+  "bugs": {
+    "url": "https://github.com/biotope/storybook-addon-compiled-code/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/biotope/storybook-addon-compiled-code.git"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "*.js",
+    "*.d.ts",
+    "ts3.5/**/*"
+  ],
+  "scripts": {
+    "prepare": "node ./scripts/prepare.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/plugin-proposal-decorators": "^7.10.1",
+    "@babel/plugin-proposal-export-default-from": "^7.10.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.10.1",
+    "@babel/plugin-proposal-private-methods": "^7.10.1",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-flow": "^7.10.1",
+    "@babel/preset-react": "^7.10.1",
+    "@babel/preset-typescript": "^7.10.1",
+    "@babel/runtime": "^7.10.2",
+    "@storybook/addons": "6.0.0-beta.17",
+    "@storybook/api": "6.0.0-beta.17",
+    "@storybook/client-logger": "6.0.0-beta.17",
+    "@storybook/components": "6.0.0-beta.17",
+    "@storybook/core-events": "^5.3.19",
+    "@storybook/router": "6.0.0-beta.17",
+    "@storybook/source-loader": "6.0.0-beta.17",
+    "@storybook/theming": "6.0.0-beta.17",
+    "@types/jest": "^25.2.3",
+    "@types/webpack-env": "^1.15.2",
+    "chalk": "^4.0.0",
+    "core-js": "^3.0.1",
+    "downlevel-dts": "^0.4.0",
+    "estraverse": "^4.2.0",
+    "fs": "0.0.1-security",
+    "loader-utils": "^2.0.0",
+    "npmlog": "^4.1.2",
+    "prettier": "^2.0.5",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.17",
+    "react-syntax-highlighter": "^12.2.1",
+    "regenerator-runtime": "^0.13.3",
+    "shelljs": "^0.8.4",
+    "typescript": "^3.9.3"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.27",
+    "@types/react-syntax-highlighter": "^11.0.4"
+  },
+  "peerDependencies": {
+    "@storybook/source-loader": "*",
+    "react": "*",
+    "react-dom": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "4b9d901add9452525135caae98ae5f78dd8da9ff"
+}
