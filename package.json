@@ -25,7 +25,8 @@
     "ts3.5/**/*"
   ],
   "scripts": {
-    "prepare": "node ./scripts/prepare.js"
+    "prepare": "node ./scripts/prepare.js",
+    "release": "np --no-yarn"
   },
   "dependencies": {
     "@babel/cli": "^7.10.1",
@@ -57,6 +58,7 @@
     "estraverse": "^4.2.0",
     "fs": "0.0.1-security",
     "loader-utils": "^2.0.0",
+    "np": "^6.2.3",
     "npmlog": "^4.1.2",
     "prettier": "^2.0.5",
     "prop-types": "^15.7.2",
