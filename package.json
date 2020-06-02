@@ -78,7 +78,8 @@
     "react-dom": "*"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
   },
   "gitHead": "4b9d901add9452525135caae98ae5f78dd8da9ff"
 }
