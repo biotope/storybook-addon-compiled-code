@@ -18,7 +18,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
 function register() {
   _addons["default"].register(_.ADDON_ID, function (api) {
     _addons["default"].addPanel(_.PANEL_ID, {
-      title: 'Story',
+      title: 'Compiled Code',
       render: function render(_ref) {
         var active = _ref.active,
             key = _ref.key;
@@ -27,7 +27,7 @@ function register() {
           api: api
         }) : null;
       },
-      paramKey: 'storysource'
+      paramKey: 'compiled-code'
     });
   });
 }

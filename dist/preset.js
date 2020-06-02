@@ -67,7 +67,7 @@ function webpack() {
 
 function managerEntries() {
   var entry = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
-  return [].concat(_toConsumableArray(entry), [require.resolve('@storybook/addon-storysource/register')]);
+  return [].concat(_toConsumableArray(entry), [require.resolve('@biotope/storybook-addon-compiled-code/register')]);
 }
 
 module.exports = {
