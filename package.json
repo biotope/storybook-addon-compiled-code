@@ -4,7 +4,8 @@
   "description": "Compiled code addon for storybook",
   "keywords": [
     "addon",
-    "storybook"
+    "storybook",
+    "storybook-addon"
   ],
   "homepage": "https://github.com/biotope/storybook-addon-compiled-code",
   "bugs": {
